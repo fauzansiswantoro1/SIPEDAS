@@ -14,7 +14,7 @@ export default function Page() {
     {
       title: "Uang Makan",
       description:
-        "Generate ADK (Arsip Data Komputer) files for meal allowance processing. Upload Excel files with employee attendance data, calculate meal allowances, and download formatted ADK files for payroll integration.",
+        "Fitur ini memungkinkan pengguna mengunggah data kehadiran pegawai dalam format Excel untuk menghitung uang makan secara otomatis. Sistem kemudian menghasilkan file ADK yang siap diunduh.",
       icon: FileSpreadsheet,
       href: "/adkUM",
       color: "text-indigo-600",
@@ -23,16 +23,16 @@ export default function Page() {
     {
       title: "Arsip File ADK",
       description:
-        "Access and manage archived ADK files for meal allowances and performance allowances. View historical data, download previous calculations, and maintain comprehensive records of all processed ADK files.",
+        "Fitur ini digunakan untuk menyimpan dan mengelola seluruh file ADK yang telah dihasilkan. Pengguna dapat melihat, mengunduh, atau menelusuri riwayat file ADK berdasarkan periode tertentu.",
       icon: Archive,
       href: "/arsipADK",
       color: "text-blue-600",
       bgColor: "bg-blue-50",
     },
     {
-      title: "Tunjangan Kinerja Management",
+      title: "Tunjangan Kinerja",
       description:
-        "Manage performance allowance (Tunjangan Kinerja) data for employees. Upload, search, and maintain allowance information including base amounts, percentages, and calculated totals for payroll processing.",
+        "Fitur ini berfungsi untuk mengolah dan menghitung tunjangan kinerja pegawai berdasarkan data absensi dan menghasilkan format ADK. Sistem secara otomatis merekap data kehadiran dan kinerja.",
       icon: DollarSign,
       href: "/tunjanganKinerjaData",
       color: "text-emerald-600",
@@ -60,9 +60,11 @@ export default function Page() {
             Sistem Pengolahan Data Absensi
           </p>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto text-pretty">
-            Comprehensive employee attendance and payroll data management
-            system. Process meal allowances, manage employee grades, and handle
-            performance allowances all in one place.
+            sistem berbasis web yang dikembangkan untuk mendukung proses
+            pengolahan data absensi pegawai secara cepat, efisien, dan akurat.
+            Sistem ini dirancang untuk mempermudah pengolahan data kehadiran
+            pegawai yang menjadi dasar dalam perhitungan uang makan dan
+            tunjangan kinerja
           </p>
         </div>
 
@@ -107,7 +109,7 @@ export default function Page() {
         {/* Quick Stats or Info Section */}
         <div className="bg-white/40 rounded-2xl border border-slate-200 p-8 shadow-sm">
           <h2 className="text-2xl font-semibold text-slate-900 mb-4">
-            System Features
+            Keunggulan Sistem
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="flex items-start gap-3">
@@ -117,7 +119,7 @@ export default function Page() {
                   Excel Integration
                 </h3>
                 <p className="text-sm text-slate-600">
-                  Upload and process Excel files with flexible validation
+                  Mudah mengunggah file berformat excel
                 </p>
               </div>
             </div>
@@ -125,10 +127,10 @@ export default function Page() {
               <div className="w-2 h-2 rounded-full bg-blue-600 mt-2" />
               <div>
                 <h3 className="font-medium text-slate-900 mb-1">
-                  Real-time Search
+                  Fast and Efficient
                 </h3>
                 <p className="text-sm text-slate-600">
-                  Quickly find employees by name or NIP
+                  Proses pengolahan data yang cepat
                 </p>
               </div>
             </div>
@@ -137,7 +139,7 @@ export default function Page() {
               <div>
                 <h3 className="font-medium text-slate-900 mb-1">Data Export</h3>
                 <p className="text-sm text-slate-600">
-                  Download processed data in multiple formats
+                  Download data hasil olahan dalam berbagai format
                 </p>
               </div>
             </div>
