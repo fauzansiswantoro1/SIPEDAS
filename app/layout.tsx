@@ -9,6 +9,7 @@ import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "SIPEDAS - Sistem Pengolahan Data Absensi",
+
   description:
     "Sistem Pengolahan Data Absensi untuk manajemen uang makan dan tunjangan karyawan",
 };
