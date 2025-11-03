@@ -164,14 +164,14 @@ export default function ADKUangMakanPage() {
       rate = 35000;
       taxRate = 0;
     } else if (golongan.startsWith("II/")) {
-      rate = 36000;
+      rate = 35000;
       taxRate = 0;
     } else if (golongan.startsWith("III/")) {
       rate = 37000;
       taxRate = 0.05;
     } else if (golongan.startsWith("IV/")) {
-      rate = 38000;
-      taxRate = 0.05;
+      rate = 41000;
+      taxRate = 0.15;
     }
 
     return { rate, taxRate };
